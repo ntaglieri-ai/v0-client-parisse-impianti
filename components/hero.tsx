@@ -33,20 +33,13 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="max-w-2xl">
-          {/* Badge */}
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-orange-500/30 bg-orange-500/10 mb-6">
-            <span className="w-2 h-2 rounded-full bg-orange-500 animate-pulse" aria-hidden="true" />
-            <span className="text-xs font-semibold text-orange-400 tracking-wide uppercase">
-              Dal 2008 in Centro Italia
-            </span>
-          </div>
+          {/* Removed: Badge */}
 
           <h1
             className="font-black text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight text-white text-balance"
             style={{ fontFamily: 'var(--font-montserrat)' }}
           >
-            Impianti elettrici, fotovoltaico e sistemi tecnologici per{' '}
-            <span className="text-orange-500">abitazioni e aziende</span>
+            <span className="text-orange-500">Impianti fotovoltaici, elettrici e sistemi tecnologici</span> per abitazioni e aziende
           </h1>
 
           <p className="text-gray-400 max-w-xl mt-6 text-base sm:text-lg leading-relaxed">
@@ -67,36 +60,6 @@ export default function Hero() {
               </svg>
               Richiedi preventivo gratuito
             </Link>
-
-            <a
-              href="tel:+393387447981"
-              aria-label="Chiama Parisse Impianti adesso"
-              className="inline-flex items-center gap-2 px-6 py-3.5 rounded-full border border-white/20 bg-white/5 text-white font-semibold text-sm hover:bg-white/10 hover:border-white/40 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0d1117] min-h-[44px]"
-            >
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-              </svg>
-              Chiamaci ora
-            </a>
-          </div>
-
-          {/* Stats */}
-          <div className="flex flex-wrap gap-8 mt-12 pt-8 border-t border-white/10">
-            {[
-              { value: '15+', label: 'Anni di esperienza' },
-              { value: '500+', label: 'Impianti installati' },
-              { value: '4', label: 'Regioni coperte' },
-            ].map((stat) => (
-              <div key={stat.label}>
-                <p
-                  className="text-3xl font-black text-orange-500"
-                  style={{ fontFamily: 'var(--font-montserrat)' }}
-                >
-                  {stat.value}
-                </p>
-                <p className="text-xs text-gray-400 mt-0.5">{stat.label}</p>
-              </div>
-            ))}
           </div>
         </div>
       </div>

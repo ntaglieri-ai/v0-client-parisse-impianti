@@ -46,11 +46,11 @@ export default function Navbar() {
         className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16"
         aria-label="Navigazione principale"
       >
-        {/* Logo */}
+        {/* Logo - left */}
         <Link
           href="#hero"
           aria-label="Parisse Impianti - Torna alla home"
-          className="flex items-center gap-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 rounded"
+          className="flex items-center gap-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 rounded flex-shrink-0"
         >
           <Image
             src="/images/logo-ap.png"
@@ -67,8 +67,8 @@ export default function Navbar() {
           </div>
         </Link>
 
-        {/* Desktop center nav */}
-        <ul className="hidden md:flex items-center gap-6" role="list">
+        {/* Desktop center nav - pushed right */}
+        <ul className="hidden md:flex items-center gap-8 ml-auto" role="list">
           <li>
             <Link
               href="#hero"
