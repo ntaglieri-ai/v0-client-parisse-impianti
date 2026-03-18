@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useRef, useEffect } from 'react'
+import Image from 'next/image'
 import Link from 'next/link'
 
 const services = [
@@ -49,8 +50,17 @@ export default function Navbar() {
         <Link
           href="#hero"
           aria-label="Parisse Impianti - Torna alla home"
-          className="flex items-center gap-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 rounded"
+          className="flex items-center gap-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 rounded"
         >
+          <Image
+            src="/images/logo-ap.png"
+            alt="Logo AP"
+            width={36}
+            height={36}
+            className="w-9 h-9 object-contain"
+            style={{ mixBlendMode: 'screen' }}
+            priority
+          />
           <span
             className="text-xl font-extrabold text-orange-500 leading-none"
             style={{ fontFamily: 'var(--font-montserrat)' }}
