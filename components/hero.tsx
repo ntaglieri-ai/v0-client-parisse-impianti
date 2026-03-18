@@ -31,7 +31,7 @@ export default function Hero() {
       />
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full">
         <div className="max-w-2xl">
           {/* Removed: Badge */}
 
@@ -39,7 +39,7 @@ export default function Hero() {
             className="font-black text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight text-white text-balance"
             style={{ fontFamily: 'var(--font-montserrat)' }}
           >
-            <span className="text-orange-500">Impianti fotovoltaici, elettrici e sistemi tecnologici</span> per abitazioni e aziende
+            Impianti fotovoltaici, elettrici e sistemi tecnologici <span className="text-orange-500">per abitazioni e aziende</span>
           </h1>
 
           <p className="text-gray-400 max-w-xl mt-6 text-base sm:text-lg leading-relaxed">
