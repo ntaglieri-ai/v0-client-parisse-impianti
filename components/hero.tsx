@@ -36,10 +36,12 @@ export default function Hero() {
           {/* Removed: Badge */}
 
           <h1
-            className="font-black text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight text-white text-balance"
+            className="font-black text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight text-white"
             style={{ fontFamily: 'var(--font-montserrat)' }}
           >
-            Impianti fotovoltaici, elettrici e sistemi tecnologici <span className="text-orange-500">per abitazioni e aziende</span>
+            <span className="block">Impianti fotovoltaici,</span>
+            <span className="block">elettrici e sistemi tecnologici</span>
+            <span className="block text-orange-500">per abitazioni e aziende</span>
           </h1>
 
           <p className="text-gray-400 max-w-xl mt-6 text-base sm:text-lg leading-relaxed">
