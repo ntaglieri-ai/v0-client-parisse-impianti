@@ -52,28 +52,20 @@ export default function Footer() {
             <Link
               href="#hero"
               aria-label="Parisse Impianti - Torna alla home"
-              className="flex items-center gap-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 rounded w-fit"
+              className="flex items-center gap-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 rounded w-fit"
             >
               <Image
                 src="/images/logo-ap.png"
                 alt="Logo AP"
-                width={40}
-                height={40}
-                className="w-10 h-10 object-contain"
-                style={{ mixBlendMode: 'screen' }}
+                width={52}
+                height={52}
+                className="w-13 h-13 object-contain flex-shrink-0"
+                style={{ mixBlendMode: 'lighten' }}
               />
-              <span
-                className="text-xl font-extrabold text-orange-500"
-                style={{ fontFamily: 'var(--font-montserrat)' }}
-              >
-                PARISSE
-              </span>
-              <span
-                className="text-xl font-extrabold text-white"
-                style={{ fontFamily: 'var(--font-montserrat)' }}
-              >
-                IMPIANTI
-              </span>
+              <div className="flex flex-col leading-none" style={{ fontFamily: 'var(--font-montserrat)' }}>
+                <span className="text-lg font-extrabold text-orange-500 tracking-wide">PARISSE</span>
+                <span className="text-lg font-extrabold text-white tracking-wide">IMPIANTI</span>
+              </div>
             </Link>
             <p className="text-sm text-gray-400 leading-relaxed">
               Soluzioni professionali per impianti tecnologici. Affidabilità, qualità e assistenza dal

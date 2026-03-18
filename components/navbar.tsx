@@ -50,29 +50,21 @@ export default function Navbar() {
         <Link
           href="#hero"
           aria-label="Parisse Impianti - Torna alla home"
-          className="flex items-center gap-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 rounded"
+          className="flex items-center gap-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 rounded"
         >
           <Image
             src="/images/logo-ap.png"
             alt="Logo AP"
-            width={36}
-            height={36}
-            className="w-9 h-9 object-contain"
-            style={{ mixBlendMode: 'screen' }}
+            width={44}
+            height={44}
+            className="w-11 h-11 object-contain flex-shrink-0"
+            style={{ mixBlendMode: 'lighten' }}
             priority
           />
-          <span
-            className="text-xl font-extrabold text-orange-500 leading-none"
-            style={{ fontFamily: 'var(--font-montserrat)' }}
-          >
-            PARISSE
-          </span>
-          <span
-            className="text-xl font-extrabold text-white leading-none"
-            style={{ fontFamily: 'var(--font-montserrat)' }}
-          >
-            IMPIANTI
-          </span>
+          <div className="flex flex-col leading-none" style={{ fontFamily: 'var(--font-montserrat)' }}>
+            <span className="text-base font-extrabold text-orange-500 tracking-wide">PARISSE</span>
+            <span className="text-base font-extrabold text-white tracking-wide">IMPIANTI</span>
+          </div>
         </Link>
 
         {/* Desktop center nav */}
