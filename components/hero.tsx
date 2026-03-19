@@ -77,7 +77,7 @@ export default function Hero() {
         <div className="max-w-4xl text-left">
           <h1
             className="font-black text-5xl md:text-6xl lg:text-7xl text-white w-full"
-            style={{ fontFamily: 'var(--font-montserrat)', lineHeight: 1.47 }}
+            style={{ fontFamily: 'var(--font-montserrat)', lineHeight: 1.27 }}
           >
             <span className="block">Impianti fotovoltaici,</span>
             <span className="block">elettrici e sistemi tecnologici</span>
