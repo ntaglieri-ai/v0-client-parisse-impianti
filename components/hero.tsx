@@ -46,7 +46,7 @@ export default function Hero() {
         </div>
 
         {/* Bottom: buttons pinned */}
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', paddingBottom: '20px', marginTop: 'auto', paddingTop: '40px' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', paddingBottom: '20px', marginTop: '10px' }}>
           <Link
             href="#contatti"
             aria-label="Richiedi preventivo gratuito a Parisse Impianti"
