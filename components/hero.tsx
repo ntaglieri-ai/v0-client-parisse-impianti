@@ -6,7 +6,7 @@ export default function Hero() {
     <section
       id="hero"
       role="banner"
-      className="relative flex items-center min-h-[100svh] bg-[#0d1117] overflow-x-hidden pt-16"
+      className="relative flex items-start md:items-center min-h-[100svh] bg-[#0d1117] overflow-x-hidden pt-16"
     >
       {/* Background image */}
       <div className="absolute inset-0">
@@ -31,7 +31,7 @@ export default function Hero() {
       />
 
       {/* Content */}
-      <div className="relative z-10 w-full max-w-7xl md:mx-auto px-6 sm:px-6 lg:px-8 pt-2 pb-10 sm:py-20 overflow-x-hidden">
+      <div className="relative z-10 w-full max-w-7xl md:mx-auto px-6 sm:px-6 lg:px-8 pt-8 pb-10 sm:py-20 overflow-x-hidden">
         <div className="w-full sm:max-w-2xl lg:max-w-4xl text-left">
           {/* Removed: Badge */}
 
