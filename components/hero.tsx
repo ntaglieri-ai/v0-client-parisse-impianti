@@ -30,7 +30,7 @@ export default function Hero() {
         style={{ minHeight: '100svh', padding: '40px 24px 60px 24px' }}
       >
         {/* Top: title + subtitle */}
-        <div>
+        <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'flex-end' }}>
           <h1
             className="text-white font-black w-full"
             style={{ fontFamily: 'var(--font-montserrat)', fontSize: '2.2rem', lineHeight: 1.1, fontWeight: 900 }}
