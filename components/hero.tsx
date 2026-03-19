@@ -27,7 +27,7 @@ export default function Hero() {
       {/* ── MOBILE layout (hidden on md+) ── */}
       <div
         className="md:hidden relative z-10 flex flex-col justify-between pt-16"
-        style={{ minHeight: '100svh', padding: '40px 24px 60px 24px' }}
+        style={{ minHeight: '100svh', padding: '60px 24px 60px 24px' }}
       >
         {/* Top: title + subtitle */}
         <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'flex-end' }}>
