@@ -27,13 +27,13 @@ export default function Hero() {
       {/* ── MOBILE layout (hidden on md+) ── */}
       <div
         className="md:hidden relative z-10 flex flex-col justify-between pt-16"
-        style={{ minHeight: '100svh', padding: '60px 24px 60px 24px' }}
+        style={{ minHeight: '100svh', padding: '40px 24px 60px 24px' }}
       >
         {/* Top: title + subtitle */}
         <div>
           <h1
             className="text-white font-black w-full"
-            style={{ fontFamily: 'var(--font-montserrat)', fontSize: '2.8rem', lineHeight: 1.1, fontWeight: 900 }}
+            style={{ fontFamily: 'var(--font-montserrat)', fontSize: '2.2rem', lineHeight: 1.1, fontWeight: 900 }}
           >
             <span className="block">Impianti fotovoltaici,</span>
             <span className="block">elettrici e sistemi tecnologici</span>
