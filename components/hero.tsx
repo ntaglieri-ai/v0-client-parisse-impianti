@@ -51,7 +51,7 @@ export default function Hero() {
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-8">
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-4 mt-12 sm:mt-8">
             <Link
               href="#contatti"
               aria-label="Richiedi preventivo gratuito a Parisse Impianti"
