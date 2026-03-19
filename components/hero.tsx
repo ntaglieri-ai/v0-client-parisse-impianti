@@ -33,7 +33,7 @@ export default function Hero() {
         <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'flex-end' }}>
           <h1
             className="text-white font-black w-full"
-            style={{ fontFamily: 'var(--font-montserrat)', fontSize: '2.2rem', lineHeight: 1.1, fontWeight: 900, marginTop: '-10px' }}
+            style={{ fontFamily: 'var(--font-montserrat)', fontSize: '2.2rem', lineHeight: 1.47, fontWeight: 900, marginTop: '-10px' }}
           >
             <span className="block">Impianti fotovoltaici,</span>
             <span className="block">elettrici e sistemi tecnologici</span>
@@ -77,7 +77,7 @@ export default function Hero() {
         <div className="max-w-4xl text-left">
           <h1
             className="font-black text-5xl md:text-6xl lg:text-7xl text-white w-full"
-            style={{ fontFamily: 'var(--font-montserrat)', lineHeight: 1.15 }}
+            style={{ fontFamily: 'var(--font-montserrat)', lineHeight: 1.47 }}
           >
             <span className="block">Impianti fotovoltaici,</span>
             <span className="block">elettrici e sistemi tecnologici</span>
