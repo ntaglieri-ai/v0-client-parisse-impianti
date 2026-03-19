@@ -87,15 +87,6 @@ export default function Slideshow() {
             aria-hidden="true"
           />
 
-          {/* Slide counter top-right */}
-          <div
-            className="absolute top-4 right-6 bg-black/50 text-white text-xs font-semibold px-3 py-1.5 rounded-full backdrop-blur-sm"
-            aria-live="polite"
-            aria-atomic="true"
-          >
-            {currentSlide + 1} / {slides.length}
-          </div>
-
           {/* Navigation arrows */}
 
           {/* Dot navigation */}
