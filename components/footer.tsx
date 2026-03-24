@@ -134,11 +134,11 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500">
-          <div className="flex flex-col sm:flex-row items-center gap-2">
-            <span>© 2025 Parisse Impianti. Tutti i diritti riservati.</span>
+        <div className="border-t border-white/10 pt-6 flex flex-col items-center gap-4 text-xs text-gray-500">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-2 text-center">
+            <span>© {new Date().getFullYear()} MosTag Studio. Tutti i diritti riservati.</span>
             <span className="hidden sm:block" aria-hidden="true">·</span>
-            <span>P.IVA XXXXXXXXXX</span>
+            <span>P.IVA IT02137500662</span>
           </div>
           <div className="flex items-center gap-4">
             <a
