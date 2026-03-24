@@ -50,6 +50,7 @@ export default function RootLayout({
   return (
     <html lang="it" className={`${montserrat.variable} ${inter.variable} scroll-smooth`}>
       <head>
+        <script type="text/javascript" src="https://embeds.iubenda.com/widgets/9202dd7e-eb5f-43d6-86f5-3e585bb99f77.js" async />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
