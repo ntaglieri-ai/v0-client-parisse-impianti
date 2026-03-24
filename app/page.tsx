@@ -4,7 +4,6 @@ import Slideshow from '@/components/slideshow'
 import Services from '@/components/services'
 import WhyUs from '@/components/why-us'
 import Partners from '@/components/partners'
-import Certifications from '@/components/certifications'
 import Coverage from '@/components/coverage'
 import CTA from '@/components/cta'
 import Footer from '@/components/footer'
@@ -49,7 +48,6 @@ export default function Page() {
         <Services />
         <WhyUs />
         <Partners />
-        <Certifications />
         <Coverage />
         <CTA />
       </main>
