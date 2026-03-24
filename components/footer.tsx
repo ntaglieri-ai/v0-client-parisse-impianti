@@ -1,6 +1,3 @@
-'use client'
-
-import { useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -21,16 +18,6 @@ const companyLinks = [
 ]
 
 export default function Footer() {
-  useEffect(() => {
-    const script = document.createElement('script')
-    script.src = 'https://cdn.iubenda.com/iubenda.js'
-    script.async = true
-    document.body.appendChild(script)
-    return () => {
-      document.body.removeChild(script)
-    }
-  }, [])
-
   return (
     <footer role="contentinfo" className="bg-[#0d1117] border-t border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-8">
@@ -153,19 +140,21 @@ export default function Footer() {
             <span className="hidden sm:block" aria-hidden="true">·</span>
             <span>P.IVA IT02137500662</span>
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-2 text-gray-500">
             <a
               href="https://www.iubenda.com/privacy-policy/69776268"
-              className="iubenda-white iubenda-noiframe iubenda-embed hover:text-orange-400 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 rounded"
-              title="Privacy Policy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-gray-400 transition-colors"
             >
               Privacy Policy
             </a>
             <span aria-hidden="true">|</span>
             <a
               href="https://www.iubenda.com/privacy-policy/69776268/cookie-policy"
-              className="iubenda-white iubenda-noiframe iubenda-embed hover:text-orange-400 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 rounded"
-              title="Cookie Policy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-gray-400 transition-colors"
             >
               Cookie Policy
             </a>

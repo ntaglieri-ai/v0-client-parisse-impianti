@@ -54,7 +54,6 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
         <meta name="theme-color" content="#0d1117" />
-        <script type="text/javascript" src="https://embeds.iubenda.com/widgets/9202dd7e-eb5f-43d6-86f5-3e585bb99f77.js" async />
       </head>
       <body className="font-sans antialiased bg-[#0d1117] text-white">
         {children}
