@@ -1,3 +1,6 @@
+'use client'
+
+import { useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -18,6 +21,16 @@ const companyLinks = [
 ]
 
 export default function Footer() {
+  useEffect(() => {
+    const script = document.createElement('script')
+    script.src = 'https://cdn.iubenda.com/iubenda.js'
+    script.async = true
+    document.body.appendChild(script)
+    return () => {
+      document.body.removeChild(script)
+    }
+  }, [])
+
   return (
     <footer role="contentinfo" className="bg-[#0d1117] border-t border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-8">
@@ -142,15 +155,17 @@ export default function Footer() {
           </div>
           <div className="flex items-center gap-4">
             <a
-              href="#"
-              className="hover:text-orange-400 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 rounded"
+              href="https://www.iubenda.com/privacy-policy/69776268"
+              className="iubenda-white iubenda-noiframe iubenda-embed hover:text-orange-400 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 rounded"
+              title="Privacy Policy"
             >
               Privacy Policy
             </a>
             <span aria-hidden="true">|</span>
             <a
-              href="#"
-              className="hover:text-orange-400 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 rounded"
+              href="https://www.iubenda.com/privacy-policy/69776268/cookie-policy"
+              className="iubenda-white iubenda-noiframe iubenda-embed hover:text-orange-400 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 rounded"
+              title="Cookie Policy"
             >
               Cookie Policy
             </a>
