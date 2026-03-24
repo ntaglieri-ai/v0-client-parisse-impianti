@@ -5,12 +5,12 @@ import Image from 'next/image'
 
 const slides = [
   {
-    src: '/images/hero-solar.jpg',
-    alt: 'Installazione pannelli fotovoltaici su tetto residenziale in Abruzzo - Parisse Impianti',
+    src: '/images/parisse2.jpg',
+    alt: 'Installazione pannelli fotovoltaici su tetto residenziale con tegole in cotto - vista aerea - Parisse Impianti',
   },
   {
-    src: '/images/slide-2-quadro.jpg',
-    alt: 'Quadro elettrico professionale installato da Parisse Impianti',
+    src: '/images/parisse4.jpg',
+    alt: 'Pannelli fotovoltaici su tetto metallico rosso con panorama montano abruzzese - Parisse Impianti',
   },
   {
     src: '/images/slide-3-domotica.jpg',
@@ -25,8 +25,8 @@ const slides = [
     alt: 'Impianto climatizzazione con pompa di calore - Parisse Impianti',
   },
   {
-    src: '/images/slide-6-tecnici.jpg',
-    alt: 'Tecnici Parisse Impianti durante installazione impianto elettrico',
+    src: '/images/parisse3.jpg',
+    alt: 'Installazione pannelli fotovoltaici con tecnici al lavoro su tetto - vista aerea - Parisse Impianti',
   },
 ]
 
@@ -61,7 +61,7 @@ export default function Slideshow() {
       className="w-full bg-[#0d1117] py-4 md:py-6"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="relative w-full h-[500px] overflow-hidden rounded-lg border border-white/10">
+        <div className="relative w-full aspect-[16/10] max-h-[600px] overflow-hidden rounded-lg border border-white/10">
           {/* Slides */}
           {slides.map((slide, i) => (
             <div
