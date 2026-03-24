@@ -29,20 +29,21 @@ export default function Coverage() {
               className="text-3xl sm:text-4xl font-extrabold text-white text-balance mt-2 mb-2"
               style={{ fontFamily: 'var(--font-montserrat)' }}
             >
-              Operiamo in{' '}
+              Operiamo prevalentemente in{' '}
               <span className="relative inline-block">
                 Centro Italia
                 <span
                   className="absolute bottom-0 left-0 w-full h-1 bg-orange-500 rounded-full"
                   aria-hidden="true"
                 />
-              </span>
+              </span>{' '}
+              ma se richiesto serviamo anche tutto il Paese
             </h2>
 
             <p className="text-gray-400 leading-relaxed mt-6">
               PARISSE IMPIANTI offre i propri servizi in Abruzzo, Lazio, Marche e Umbria. Raggiungiamo
               sia i capoluoghi di provincia che i centri minori, garantendo tempi di intervento rapidi e
-              assistenza professionale su tutto il territorio.
+              assistenza su tutto il territorio.
             </p>
             <p className="text-gray-400 leading-relaxed mt-4">
               Che tu abbia bisogno di un impianto elettrico per la tua abitazione, di un sistema
@@ -93,14 +94,14 @@ export default function Coverage() {
             <div className="rounded-2xl overflow-hidden border border-orange-500/20 shadow-[0_0_40px_rgba(249,115,22,0.15)]">
               <iframe
                 title="Mappa sede Parisse Impianti"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96163.94!2d13.4!3d42.35!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132fd9e4fad0168b%3A0x6c0e1def64c1b6b4!2sAbruzzo%2C%20Italia!5e0!3m2!1sit!2sit!4v1700000000000!5m2!1sit!2sit"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2942.5!2d13.6414!3d42.0236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132e9a5e5e5e5e5e%3A0x1234567890abcdef!2sVia%20II%20Traversa%20delle%20Croci%2C%2016%2C%2067057%20Pescina%20AQ!5e0!3m2!1sit!2sit!4v1700000000000!5m2!1sit!2sit"
                 width="100%"
                 height="420"
                 style={{ border: 0, filter: 'invert(90%) hue-rotate(180deg) saturate(0.8) brightness(0.85)' }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                aria-label="Mappa Google Maps - zona operativa Parisse Impianti in Centro Italia"
+                aria-label="Mappa Google Maps - sede Parisse Impianti, Via II Traversa delle Croci 16, Pescina AQ"
               />
             </div>
 
