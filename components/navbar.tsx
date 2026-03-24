@@ -68,7 +68,7 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop center nav - pushed right */}
-        <ul className="hidden md:flex items-center gap-8 ml-auto mr-8" role="list">
+        <ul className="hidden md:flex items-center gap-8 ml-auto mr-12" role="list">
           <li>
             <Link
               href="/"
