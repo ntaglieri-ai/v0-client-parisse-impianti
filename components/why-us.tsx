@@ -10,12 +10,12 @@ const reasons = [
     ),
   },
   {
-    title: 'Certificazioni',
+    title: 'Preventivi Trasparenti',
     description:
-      'Personale qualificato con certificazioni CEI, abilitazione DM 37/08 e formazione continua.',
+      'Offriamo preventivi dettagliati e senza sorprese, con soluzioni su misura per ogni esigenza.',
     icon: (
       <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5} aria-hidden="true">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M15 9l-3 3-3-3m0 6l3 3 3-3M12 3C7.03 3 3 7.03 3 12s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
       </svg>
     ),
   },
