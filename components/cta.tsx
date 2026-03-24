@@ -32,7 +32,7 @@ export default function CTA() {
           </a>
 
           <a
-            href="https://wa.me/393394177820?text=Ciao%2C%20vorrei%20richiedere%20informazioni%20sui%20vostri%20servizi."
+            href="https://wa.me/393387447981?text=Ciao%2C%20vorrei%20richiedere%20informazioni%20sui%20vostri%20servizi."
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Contatta Parisse Impianti su WhatsApp"
