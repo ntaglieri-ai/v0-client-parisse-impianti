@@ -15,7 +15,7 @@ export default function Hero() {
           alt="Installazione impianti fotovoltaici Parisse Impianti"
           fill
           priority
-          className="object-cover opacity-20"
+          className="object-cover opacity-30"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#0d1117] via-[#0d1117]/80 to-transparent" />
       </div>
