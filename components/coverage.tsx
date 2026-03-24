@@ -29,21 +29,20 @@ export default function Coverage() {
               className="text-3xl sm:text-4xl font-extrabold text-white text-balance mt-2 mb-2"
               style={{ fontFamily: 'var(--font-montserrat)' }}
             >
-              Operiamo prevalentemente in{' '}
+              Operiamo in{' '}
               <span className="relative inline-block">
-                Centro Italia
+                tutta Italia
                 <span
                   className="absolute bottom-0 left-0 w-full h-1 bg-orange-500 rounded-full"
                   aria-hidden="true"
                 />
-              </span>{' '}
-              ma se richiesto serviamo anche tutto il Paese
+              </span>
             </h2>
 
             <p className="text-gray-400 leading-relaxed mt-6">
-              PARISSE IMPIANTI offre i propri servizi in Abruzzo, Lazio, Marche e Umbria. Raggiungiamo
-              sia i capoluoghi di provincia che i centri minori, garantendo tempi di intervento rapidi e
-              assistenza su tutto il territorio.
+              PARISSE IMPIANTI offre i propri servizi prevalentemente in Abruzzo, Lazio, Marche e Umbria, 
+              ma se richiesto serviamo tutta Italia raggiungendo sia i capoluoghi di provincia che i centri 
+              minori, garantendo tempi di intervento rapidi e assistenza su tutto il territorio.
             </p>
             <p className="text-gray-400 leading-relaxed mt-4">
               Che tu abbia bisogno di un impianto elettrico per la tua abitazione, di un sistema
