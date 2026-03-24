@@ -45,8 +45,8 @@ export default function Hero() {
           </p>
         </div>
 
-        {/* Bottom: buttons pinned */}
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', paddingBottom: '20px', marginTop: '10px' }}>
+        {/* Bottom: button pinned */}
+        <div style={{ display: 'flex', flexDirection: 'column', paddingBottom: '20px', marginTop: '10px' }}>
           <Link
             href="#contatti"
             aria-label="Richiedi preventivo gratuito a Parisse Impianti"
@@ -58,17 +58,6 @@ export default function Hero() {
             </svg>
             Richiedi preventivo gratuito
           </Link>
-          <a
-            href="tel:+393387447981"
-            aria-label="Chiama Parisse Impianti"
-            className="inline-flex items-center justify-center gap-2 rounded-full border border-white/20 bg-white/5 text-white font-semibold hover:bg-white/10 hover:border-white/40 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500"
-            style={{ width: '100%', height: '56px', fontSize: '1rem' }}
-          >
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-            </svg>
-            Chiamaci ora
-          </a>
         </div>
       </div>
 
@@ -87,7 +76,7 @@ export default function Hero() {
             Progettiamo e installiamo impianti elettrici, fotovoltaici, domotica, sistemi di sicurezza
             e climatizzazione in Abruzzo, Lazio, Marche e Umbria. Qualità certificata e assistenza dedicata.
           </p>
-          <div className="flex flex-row gap-4 mt-8">
+          <div className="mt-8">
             <Link
               href="#contatti"
               aria-label="Richiedi preventivo gratuito a Parisse Impianti"
@@ -98,16 +87,6 @@ export default function Hero() {
               </svg>
               Richiedi preventivo gratuito
             </Link>
-            <a
-              href="tel:+393387447981"
-              aria-label="Chiama Parisse Impianti"
-              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full border border-white/20 bg-white/5 text-white font-semibold text-sm hover:bg-white/10 hover:border-white/40 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0d1117]"
-            >
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-              </svg>
-              Chiamaci ora
-            </a>
           </div>
         </div>
       </div>
