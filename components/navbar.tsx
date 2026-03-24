@@ -5,19 +5,19 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const services = [
-  { label: 'Impianti Elettrici', href: '#servizi' },
-  { label: 'Impianti Fotovoltaici', href: '#servizi' },
-  { label: 'Domotica e Smart Home', href: '#servizi' },
-  { label: 'Sistemi Antifurto', href: '#servizi' },
-  { label: 'Videosorveglianza', href: '#servizi' },
-  { label: 'Climatizzazione', href: '#servizi' },
-  { label: 'Automazioni e Cancelli', href: '#servizi' },
+  { label: 'Impianti Elettrici', href: '/servizi/impianti-elettrici' },
+  { label: 'Impianti Fotovoltaici', href: '/servizi/impianti-fotovoltaici' },
+  { label: 'Domotica e Smart Home', href: '/servizi/domotica-smart-home' },
+  { label: 'Sistemi Antifurto', href: '/servizi/sistemi-antifurto' },
+  { label: 'Videosorveglianza', href: '/servizi/videosorveglianza' },
+  { label: 'Climatizzazione', href: '/servizi/climatizzazione' },
+  { label: 'Automazioni e Cancelli', href: '/servizi/automazioni-cancelli' },
 ]
 
 const navLinks = [
-  { label: 'Home', href: '#hero' },
-  { label: 'Azienda', href: '#perche-sceglierci' },
-  { label: 'Contatti', href: '#contatti' },
+  { label: 'Home', href: '/' },
+  { label: 'Azienda', href: '/#perche-sceglierci' },
+  { label: 'Contatti', href: '/#contatti' },
 ]
 
 export default function Navbar() {
@@ -48,7 +48,7 @@ export default function Navbar() {
       >
         {/* Logo - left */}
         <Link
-          href="#hero"
+          href="/"
           aria-label="Parisse Impianti - Torna alla home"
           className="flex items-center gap-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 rounded flex-shrink-0"
         >
@@ -71,7 +71,7 @@ export default function Navbar() {
         <ul className="hidden md:flex items-center gap-8 ml-auto mr-8" role="list">
           <li>
             <Link
-              href="#hero"
+              href="/"
               className="text-sm font-medium text-gray-300 hover:text-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 rounded px-1"
             >
               Home
@@ -152,7 +152,7 @@ export default function Navbar() {
 
           {/* CTA button */}
           <Link
-            href="#contatti"
+            href="/#contatti"
             aria-label="Contatta Parisse Impianti"
             className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-orange-500 text-white text-sm font-semibold hover:bg-orange-600 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0d1117] min-h-[44px]"
           >
@@ -187,7 +187,7 @@ export default function Navbar() {
           className="md:hidden bg-[#161b2e] border-t border-white/10 px-4 py-4 flex flex-col gap-1"
         >
           <Link
-            href="#hero"
+            href="/"
             onClick={() => setMobileOpen(false)}
             className="px-3 py-3 text-sm font-medium text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-colors min-h-[44px] flex items-center"
           >
@@ -210,14 +210,14 @@ export default function Navbar() {
           </div>
 
           <Link
-            href="#perche-sceglierci"
+            href="/#perche-sceglierci"
             onClick={() => setMobileOpen(false)}
             className="px-3 py-3 text-sm font-medium text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-colors min-h-[44px] flex items-center"
           >
             Azienda
           </Link>
           <Link
-            href="#contatti"
+            href="/#contatti"
             onClick={() => setMobileOpen(false)}
             className="px-3 py-3 text-sm font-medium text-gray-300 hover:text-white hover:bg-white/5 rounded-lg transition-colors min-h-[44px] flex items-center"
           >
@@ -226,7 +226,7 @@ export default function Navbar() {
 
           <div className="mt-3 pt-3 border-t border-white/10">
             <Link
-              href="#contatti"
+              href="/#contatti"
               onClick={() => setMobileOpen(false)}
               aria-label="Contatta Parisse Impianti"
               className="flex items-center justify-center gap-2 w-full px-5 py-3 rounded-full bg-orange-500 text-white text-sm font-semibold hover:bg-orange-600 transition-colors min-h-[44px]"

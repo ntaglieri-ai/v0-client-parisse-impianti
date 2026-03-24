@@ -2,19 +2,19 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const serviceLinks = [
-  { label: 'Impianti Elettrici', href: '#servizi' },
-  { label: 'Fotovoltaico', href: '#servizi' },
-  { label: 'Domotica', href: '#servizi' },
-  { label: 'Antifurto', href: '#servizi' },
-  { label: 'Videosorveglianza', href: '#servizi' },
-  { label: 'Climatizzazione', href: '#servizi' },
-  { label: 'Automazioni', href: '#servizi' },
+  { label: 'Impianti Elettrici', href: '/servizi/impianti-elettrici' },
+  { label: 'Fotovoltaico', href: '/servizi/impianti-fotovoltaici' },
+  { label: 'Domotica', href: '/servizi/domotica-smart-home' },
+  { label: 'Antifurto', href: '/servizi/sistemi-antifurto' },
+  { label: 'Videosorveglianza', href: '/servizi/videosorveglianza' },
+  { label: 'Climatizzazione', href: '/servizi/climatizzazione' },
+  { label: 'Automazioni', href: '/servizi/automazioni-cancelli' },
 ]
 
 const companyLinks = [
-  { label: 'Home', href: '#hero' },
-  { label: 'Chi Siamo', href: '#perche-sceglierci' },
-  { label: 'Contatti', href: '#contatti' },
+  { label: 'Home', href: '/' },
+  { label: 'Chi Siamo', href: '/#perche-sceglierci' },
+  { label: 'Contatti', href: '/#contatti' },
 ]
 
 function FacebookIcon() {
@@ -50,7 +50,7 @@ export default function Footer() {
           {/* Col 1 — Brand */}
           <div className="flex flex-col gap-4">
             <Link
-              href="#hero"
+              href="/"
               aria-label="Parisse Impianti - Torna alla home"
               className="flex items-center gap-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 rounded w-fit"
             >
