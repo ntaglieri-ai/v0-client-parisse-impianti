@@ -23,7 +23,6 @@ const navLinks = [
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false)
   const [servicesOpen, setServicesOpen] = useState(false)
-  const [lang, setLang] = useState<'IT' | 'EN'>('IT')
   const dropdownRef = useRef<HTMLDivElement>(null)
 
   // Close dropdown on outside click
@@ -127,29 +126,7 @@ export default function Navbar() {
         </ul>
 
         {/* Desktop right actions */}
-        <div className="hidden md:flex items-center gap-3">
-          {/* Language toggle */}
-          <div className="flex items-center rounded-full border border-white/20 overflow-hidden text-xs font-semibold">
-            <button
-              onClick={() => setLang('IT')}
-              className={`px-3 py-1 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 ${
-                lang === 'IT' ? 'bg-orange-500 text-white' : 'text-gray-400 hover:text-white'
-              }`}
-              aria-label="Lingua italiana"
-            >
-              IT
-            </button>
-            <button
-              onClick={() => setLang('EN')}
-              className={`px-3 py-1 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 ${
-                lang === 'EN' ? 'bg-orange-500 text-white' : 'text-gray-400 hover:text-white'
-              }`}
-              aria-label="English language"
-            >
-              EN
-            </button>
-          </div>
-
+        <div className="hidden md:flex items-center">
           {/* CTA button */}
           <Link
             href="/#contatti"
