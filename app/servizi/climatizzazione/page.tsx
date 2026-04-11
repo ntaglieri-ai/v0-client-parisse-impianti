@@ -14,6 +14,7 @@ const serviceData: ServiceData = {
     'Climatizzatori inverter',
     'Riscaldamento e raffrescamento',
     'Basso consumo energetico',
+    'Certificazione F-Gas (operatori abilitati)',
     'Assistenza e manutenzione',
   ],
   image: '/images/slide-5-climatizzazione.jpg',
