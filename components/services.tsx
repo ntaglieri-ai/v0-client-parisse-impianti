@@ -1,6 +1,7 @@
 const servicesRow1 = [
   {
     title: 'Impianti Elettrici',
+    href: '/servizi/impianti-elettrici',
     description:
       'La realizzazione di un impianto elettrico richiede competenza tecnica, precisione e rispetto delle normative.',
     icon: (
@@ -11,6 +12,7 @@ const servicesRow1 = [
   },
   {
     title: 'Impianti Fotovoltaici',
+    href: '/servizi/impianti-fotovoltaici',
     description:
       'Il fotovoltaico è la scelta più intelligente per ridurre i costi energetici e contribuire alla sostenibilità.',
     icon: (
@@ -21,6 +23,7 @@ const servicesRow1 = [
   },
   {
     title: 'Domotica e Smart Home',
+    href: '/servizi/domotica',
     description:
       'La domotica trasforma la tua abitazione in un ambiente intelligente dove comfort e sicurezza si integrano.',
     icon: (
@@ -31,6 +34,7 @@ const servicesRow1 = [
   },
   {
     title: 'Sistemi Antifurto',
+    href: '/servizi/sistemi-antifurto',
     description:
       'Un sistema antifurto professionale è la prima linea di difesa per proteggere la tua famiglia e i tuoi beni.',
     icon: (
@@ -44,6 +48,7 @@ const servicesRow1 = [
 const servicesRow2 = [
   {
     title: 'Sistemi di Videosorveglianza',
+    href: '/servizi/videosorveglianza',
     description:
       'Un sistema di videosorveglianza offre sicurezza, tranquillità e monitoraggio costante della tua proprietà.',
     icon: (
@@ -54,6 +59,7 @@ const servicesRow2 = [
   },
   {
     title: 'Impianti di Climatizzazione',
+    href: '/servizi/climatizzazione',
     description:
       'Climatizzazione moderna per il comfort ideale estate e inverno, con pompe di calore ad alta efficienza.',
     icon: (
@@ -64,6 +70,7 @@ const servicesRow2 = [
   },
   {
     title: 'Automazioni e Cancelli',
+    href: '/servizi/automazioni-cancelli',
     description:
       'Automazioni per cancelli e basculanti per migliorare il comfort e la sicurezza della tua proprietà.',
     icon: (
@@ -75,7 +82,7 @@ const servicesRow2 = [
   },
 ]
 
-function ServiceCard({ title, description, icon }: { title: string; description: string; icon: React.ReactNode }) {
+function ServiceCard({ title, description, icon, href }: { title: string; description: string; icon: React.ReactNode; href: string }) {
   return (
     <article className="card-hover flex flex-col gap-4 rounded-xl bg-[#1a2035] p-6 border border-white/5">
       <div className="w-14 h-14 rounded-lg bg-orange-500/10 border border-orange-500/20 flex items-center justify-center text-orange-500 flex-shrink-0">
@@ -91,7 +98,7 @@ function ServiceCard({ title, description, icon }: { title: string; description:
         <p className="text-gray-400 text-sm leading-relaxed flex-1">{description}</p>
       </div>
       <a
-        href="#contatti"
+        href={href}
         aria-label={`Scopri di più su ${title}`}
         className="text-orange-500 text-sm font-semibold hover:text-orange-400 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 rounded self-start"
       >
