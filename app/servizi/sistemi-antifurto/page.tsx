@@ -1,4 +1,10 @@
+import type { Metadata } from 'next'
 import ServiceDetailTemplate, { ServiceData } from '@/components/service-detail-template'
+
+export const metadata: Metadata = {
+  title: 'Sistemi Antifurto Professionali | Parisse Impianti',
+  description: 'Installazione impianti antifurto per abitazioni e aziende in Abruzzo e Centro Italia. Ajax Systems e migliori brand. Sopralluogo gratuito.',
+}
 
 const serviceData: ServiceData = {
   slug: 'sistemi-antifurto',

@@ -1,4 +1,10 @@
+import type { Metadata } from 'next'
 import ServiceDetailTemplate, { ServiceData } from '@/components/service-detail-template'
+
+export const metadata: Metadata = {
+  title: 'Impianti Elettrici Civili e Industriali | Parisse Impianti',
+  description: 'Progettazione e realizzazione impianti elettrici conformi a norma CEI in Abruzzo e Centro Italia. Interventi rapidi e preventivo senza impegno.',
+}
 
 const serviceData: ServiceData = {
   slug: 'impianti-elettrici',

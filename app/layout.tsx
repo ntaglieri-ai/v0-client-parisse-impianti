@@ -51,6 +51,39 @@ export default function RootLayout({
     <html lang="it" className={`${montserrat.variable} ${inter.variable} scroll-smooth`}>
       <head>
         <script type="text/javascript" src="https://embeds.iubenda.com/widgets/9202dd7e-eb5f-43d6-86f5-3e585bb99f77.js" async />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              "name": "Parisse Impianti",
+              "url": "https://www.parisseimpianti.it",
+              "logo": "https://www.parisseimpianti.it/images/logo-ap.png",
+              "image": "https://www.parisseimpianti.it/images/hero-solar.jpg",
+              "description": "Progettazione e installazione impianti elettrici, fotovoltaici, domotica, sistemi di sicurezza e climatizzazione in Abruzzo, Lazio, Marche e Umbria.",
+              "telephone": "+393387447981",
+              "email": "info@parisseimpianti.it",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Via II Traversa delle Croci, 16",
+                "addressLocality": "Pescina",
+                "postalCode": "67057",
+                "addressRegion": "AQ",
+                "addressCountry": "IT"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 41.8574,
+                "longitude": 13.6597
+              },
+              "areaServed": ["Abruzzo", "Lazio", "Marche", "Umbria"],
+              "foundingDate": "2008",
+              "priceRange": "€€",
+              "sameAs": []
+            })
+          }}
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
