@@ -1,4 +1,10 @@
+import type { Metadata } from 'next'
 import ServiceDetailTemplate, { ServiceData } from '@/components/service-detail-template'
+
+export const metadata: Metadata = {
+  title: 'Impianti Fotovoltaici in Abruzzo | Parisse Impianti',
+  description: 'Installazione pannelli solari per privati e aziende in Abruzzo, Lazio, Marche e Umbria. Sistemi di accumulo, monitoraggio e incentivi fiscali. Preventivo gratuito.',
+}
 
 const serviceData: ServiceData = {
   slug: 'impianti-fotovoltaici',
