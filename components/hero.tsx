@@ -32,8 +32,8 @@ export default function Hero() {
         {/* Top: title + subtitle */}
         <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'flex-end' }}>
           <h1
-            className="text-white font-black w-full"
-            style={{ fontFamily: 'var(--font-montserrat)', fontSize: '2.2rem', lineHeight: 1.47, fontWeight: 900, marginTop: '-10px' }}
+            className="text-white font-black w-full text-[2.2rem] leading-[1.47] md:text-5xl lg:text-6xl xl:text-7xl md:leading-[1.27]"
+            style={{ fontFamily: 'var(--font-montserrat)', fontWeight: 900, marginTop: '-10px' }}
           >
             <span className="block">Impianti fotovoltaici,</span>
             <span className="block">elettrici e sistemi tecnologici</span>
@@ -64,14 +64,15 @@ export default function Hero() {
       {/* ── DESKTOP layout (hidden on mobile) ── */}
       <div className="hidden md:flex items-center min-h-[100svh] relative z-10 max-w-7xl mx-auto px-6 lg:px-8 py-20 pt-32">
         <div className="max-w-4xl text-left">
-          <h1
+          <p
             className="font-black text-5xl md:text-6xl lg:text-7xl text-white w-full"
             style={{ fontFamily: 'var(--font-montserrat)', lineHeight: 1.27 }}
+            aria-hidden="true"
           >
             <span className="block">Impianti fotovoltaici,</span>
             <span className="block">elettrici e sistemi tecnologici</span>
             <span className="block text-orange-500">per abitazioni e aziende</span>
-          </h1>
+          </p>
           <p className="text-gray-400 max-w-xl mt-6 text-lg leading-relaxed">
             Progettiamo e installiamo impianti elettrici, fotovoltaici, domotica, sistemi di sicurezza
             e climatizzazione in Abruzzo, Lazio, Marche e Umbria. Qualità certificata e assistenza dedicata.
