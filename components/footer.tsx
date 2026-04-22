@@ -141,7 +141,7 @@ export default function Footer() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-2 text-center">
             <span>© {new Date().getFullYear()} MosTag Studio. Tutti i diritti riservati.</span>
             <span className="hidden sm:block" aria-hidden="true">·</span>
-            <span>P.IVA IT02137500662</span>
+            <span>P.IVA IT02137500662 / 01847230669</span>
           </div>
           <div className="flex items-center gap-2 text-gray-500">
             <a
