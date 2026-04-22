@@ -102,6 +102,16 @@ export default function Footer() {
               Contatti
             </h3>
             <address className="not-italic flex flex-col gap-3 text-sm text-gray-400">
+              <span className="text-white font-semibold">
+                Ditta PARISSE IMPIANTI di Parisse Antonio
+              </span>
+              <span className="flex items-start gap-2">
+                <svg className="w-4 h-4 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                Via II Traversa delle Croci, 16<br />67057 Pescina (AQ)
+              </span>
               <a
                 href="tel:+393387447981"
                 aria-label="Chiama Parisse Impianti"
@@ -122,13 +132,6 @@ export default function Footer() {
                 </svg>
                 antonio.parisse@libero.it
               </a>
-              <span className="flex items-start gap-2">
-                <svg className="w-4 h-4 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                </svg>
-                Via II Traversa delle Croci, 16<br />67057 Pescina (AQ)
-              </span>
             </address>
           </div>
         </div>
@@ -138,7 +141,7 @@ export default function Footer() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-2 text-center">
             <span>© {new Date().getFullYear()} MosTag Studio. Tutti i diritti riservati.</span>
             <span className="hidden sm:block" aria-hidden="true">·</span>
-            <span>P.IVA IT02137500662</span>
+            <span>P.IVA 02137500662 / 01847230669</span>
           </div>
           <div className="flex items-center gap-2 text-gray-500">
             <a
