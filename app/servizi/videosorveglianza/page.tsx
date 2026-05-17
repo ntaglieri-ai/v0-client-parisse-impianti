@@ -4,6 +4,9 @@ import ServiceDetailTemplate, { ServiceData } from '@/components/service-detail-
 export const metadata: Metadata = {
   title: 'Sistemi di Videosorveglianza | Parisse Impianti',
   description: 'Telecamere TVCC e sistemi di videosorveglianza IP per casa e azienda. Installazione e configurazione in Abruzzo, Lazio, Marche e Umbria.',
+  alternates: {
+    canonical: 'https://parisseimpianti.it/servizi/videosorveglianza',
+  },
 }
 
 const serviceData: ServiceData = {

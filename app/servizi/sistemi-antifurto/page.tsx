@@ -4,6 +4,9 @@ import ServiceDetailTemplate, { ServiceData } from '@/components/service-detail-
 export const metadata: Metadata = {
   title: 'Sistemi Antifurto Professionali | Parisse Impianti',
   description: 'Installazione impianti antifurto per abitazioni e aziende in Abruzzo e Centro Italia. Ajax Systems e migliori brand. Sopralluogo gratuito.',
+  alternates: {
+    canonical: 'https://parisseimpianti.it/servizi/sistemi-antifurto',
+  },
 }
 
 const serviceData: ServiceData = {
