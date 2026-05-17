@@ -4,6 +4,9 @@ import ServiceDetailTemplate, { ServiceData } from '@/components/service-detail-
 export const metadata: Metadata = {
   title: 'Impianti Fotovoltaici in Abruzzo | Parisse Impianti',
   description: 'Installazione pannelli solari per privati e aziende in Abruzzo, Lazio, Marche e Umbria. Sistemi di accumulo, monitoraggio e incentivi fiscali. Preventivo gratuito.',
+  alternates: {
+    canonical: 'https://parisseimpianti.it/servizi/impianti-fotovoltaici',
+  },
 }
 
 const serviceData: ServiceData = {

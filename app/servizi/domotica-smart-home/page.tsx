@@ -4,6 +4,9 @@ import ServiceDetailTemplate, { ServiceData } from '@/components/service-detail-
 export const metadata: Metadata = {
   title: 'Domotica e Smart Home in Abruzzo | Parisse Impianti',
   description: 'Sistemi domotici per abitazioni intelligenti. Controllo luci, climatizzazione e sicurezza da smartphone. Installazione professionale in Abruzzo, Lazio, Marche e Umbria.',
+  alternates: {
+    canonical: 'https://parisseimpianti.it/servizi/domotica-smart-home',
+  },
 }
 
 const serviceData: ServiceData = {

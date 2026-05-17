@@ -4,6 +4,9 @@ import ServiceDetailTemplate, { ServiceData } from '@/components/service-detail-
 export const metadata: Metadata = {
   title: 'Automazioni Cancelli e Basculanti | Parisse Impianti',
   description: 'Installazione automazioni per cancelli, porte garage e basculanti in Abruzzo e Centro Italia. Soluzioni affidabili per privati e aziende.',
+  alternates: {
+    canonical: 'https://parisseimpianti.it/servizi/automazioni-cancelli',
+  },
 }
 
 const serviceData: ServiceData = {

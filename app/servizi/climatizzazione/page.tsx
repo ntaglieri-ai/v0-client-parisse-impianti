@@ -4,6 +4,9 @@ import ServiceDetailTemplate, { ServiceData } from '@/components/service-detail-
 export const metadata: Metadata = {
   title: 'Impianti di Climatizzazione e Pompe di Calore | Parisse Impianti',
   description: 'Installazione climatizzatori e pompe di calore ad alta efficienza in Abruzzo. Daikin e brand leader. Preventivo gratuito.',
+  alternates: {
+    canonical: 'https://parisseimpianti.it/servizi/climatizzazione',
+  },
 }
 
 const serviceData: ServiceData = {

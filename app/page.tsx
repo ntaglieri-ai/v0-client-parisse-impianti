@@ -4,6 +4,9 @@ import Navbar from '@/components/navbar'
 export const metadata: Metadata = {
   title: 'Parisse Impianti | Impianti Elettrici, Fotovoltaico e Domotica in Abruzzo',
   description: 'Progettiamo e installiamo impianti elettrici, fotovoltaici, domotica, sicurezza e climatizzazione in Abruzzo, Lazio, Marche e Umbria. Qualità certificata e preventivo gratuito.',
+  alternates: {
+    canonical: 'https://parisseimpianti.it',
+  },
 }
 import Hero from '@/components/hero'
 import Slideshow from '@/components/slideshow'
